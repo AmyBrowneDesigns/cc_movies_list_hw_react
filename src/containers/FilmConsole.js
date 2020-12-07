@@ -35,8 +35,13 @@ const FilmConsole = () => {
         <>
         <h2>This is FilmConsole</h2>
         <FilmList films = {films}/>
+
+        <form action="https://www.imdb.com/calendar/?region=gb" target="_blank">
+            <input type="submit" value= "View upcoming releases" />
+        </form>
         </>
-    )
-}
+    );
+};
+
 
 export default FilmConsole;
