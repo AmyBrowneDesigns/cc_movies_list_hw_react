@@ -9,7 +9,7 @@ const FilmList = ({films})=>{
     });
     return (
         <>
-        <h2>this is the film list</h2>
+        <h2>Check out the list below!</h2>
         <ul>
             {filmList}
         </ul>
