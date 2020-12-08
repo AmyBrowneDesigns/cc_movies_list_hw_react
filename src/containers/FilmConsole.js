@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import FilmList from '../components/FilmList';
+import './FilmConsole.css';
 
 const FilmConsole = () => {
 
@@ -35,8 +36,8 @@ const FilmConsole = () => {
         <>
         <h2>Upcoming Film Releases for UK</h2>
         <FilmList films = {films}/>
-        <form className="button" action="https://www.imdb.com/calendar/?region=gb" target="_blank">
-            <input type="submit" value= "View upcoming releases" />
+        <form action="https://www.imdb.com/calendar/?region=gb" target="_blank">
+            <input className="button" type="submit" value= "View upcoming releases" />
         </form>
         </>
     );
